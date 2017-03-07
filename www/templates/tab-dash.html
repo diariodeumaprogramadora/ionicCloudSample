@@ -1,0 +1,30 @@
+<ion-view view-title="Dashboard">
+  <ion-content class="padding">
+
+    <ion-item>{{logado}}</ion-item>
+    <button class="button button-positive" ng-click="cadastrar()">
+     Cadastrar Usuario
+    </button>
+    
+     <button class="button button-balanced" ng-click="autenticar()">
+     Autenticar Usuario
+    </button>
+
+     <button class="button button-assertive" ng-click="logout()">
+     Logout
+    </button> 
+
+    <button class="button button-assertive" ng-click="resetPass()">
+     Redefinir senha
+    </button>
+    
+    <button class="button button-positive" ng-click="confirmPassReset()">
+     Confirmar mudança senha
+    </button>
+   
+    <button class="button button-positive" ng-click="logarFacebook()">
+     Facebook Login
+    </button>
+
+  </ion-content>
+</ion-view>
