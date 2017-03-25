@@ -2,7 +2,7 @@ angular.module('starter.controllers', ['ionic.cloud'])
 
 .controller('DashCtrl', function($scope, $ionicAuth, $ionicFacebookAuth, $ionicUser) {
 
-  $scope.details = {'email': 'janynnegomes@gmail.com', 'password': 'davisouza123'};
+  $scope.details = {'email': '', 'password': ''};
   $scope.logado = $ionicAuth.isAuthenticated();
 
   $scope.cadastrar = function(){ 
